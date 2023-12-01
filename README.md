@@ -15,3 +15,15 @@
   - `static double parseDouble(String s)`
   - `static String toString(double x)`
 - We rarely explicitly use the `static toString()` method just described because Java has a built-in mechanism that allows us to convert from any data type value to `String` value by using concatenation: if _one_ of the arguments of + is a `String`, Java _automatically_ converts the other argument to a `String` 
+
+### Fundamentals: _standard output_
+`java RandomSeq 5 100.0 200.0`
+
+| command     | explanation                                |
+|-------------|--------------------------------------------|
+| `java`      | invoke Java runtime (.class file name)     |
+| `RandomSeq` | call the static method main() in RandomSeq |
+| `5`         | args[0]                                    |
+| `100.0`     | args[1]                                    |
+| `200.0`     | args[2]                                    |
+
